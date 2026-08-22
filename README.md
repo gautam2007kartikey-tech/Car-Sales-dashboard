@@ -1,12 +1,12 @@
-# ☕ Coffee Shop Sales Dashboard
+# 🚗 Car Showroom Sales Dashboard
 
 ![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Dashboard](https://img.shields.io/badge/Type-Interactive%20Dashboard-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-An interactive, fully dynamic Excel dashboard built to track, visualize, and analyze end-to-end sales performance for a multi-store coffee shop chain. This project transforms raw transactional sales data into a single, decision-ready view — covering revenue trends, product performance, customer patterns, employee performance, and store-wise breakdowns.
+An interactive, fully dynamic Excel dashboard built to track, visualize, and analyze end-to-end sales performance for a multi-brand car showroom network. This project turns raw transactional sales data into a single, decision-ready view — covering revenue trends, customer behavior, sales team performance, order fulfillment health, and regional/channel-wise breakdowns.
 
-![Dashboard Preview](Coffee_Shop_Dashboard.png)
+![Dashboard Preview](Car Showroom Dashboard.png)
 
 ---
 
@@ -28,36 +28,31 @@ An interactive, fully dynamic Excel dashboard built to track, visualize, and ana
 
 ## 📌 Overview
 
-This dashboard consolidates coffee shop sales data into a single, interactive view built entirely in **Microsoft Excel** — no external BI tool required. It enables stakeholders (store managers, business owners, or business analysts) to:
+This dashboard consolidates car showroom sales data into a single, interactive view built entirely in **Microsoft Excel** — no external BI tool required. It enables stakeholders (sales managers, showroom owners, or business analysts) to:
 
 - Monitor real-time-style KPIs at a glance
-- Identify best-selling products and top-performing stores
-- Track sales patterns by day, hour, and month to optimize staffing and inventory
-- Compare employee performance across the chain
-- Understand customer behavior through gender, payment mode, and category-wise trends
+- Identify top-performing models, salespersons, and cities
+- Track customer contribution and concentration
+- Flag operational red flags such as high order cancellation rates
 - Slice and filter data instantly using interactive slicers, without touching a single formula
 
-The goal of this project was to simulate a real-world retail/F&B business intelligence dashboard using only native Excel capabilities — Pivot Tables, Pivot Charts, and Slicers — to deliver a clean, professional, and fully interactive reporting tool.
+The goal of this project was to simulate a real-world business intelligence dashboard using only native Excel capabilities — Pivot Tables, Pivot Charts, and Slicers — to deliver a clean, professional, and fully interactive reporting tool.
 
 ---
 
 ## ✨ Key Features
 
-- 📊 **KPI Summary Cards** — Total Revenue, Total Orders, Total Quantity Sold, Average Bill, Total Stores, and Total Products, all visible at the top of the dashboard
-- 🎚️ **Interactive Slicers** — Filter the entire dashboard instantly by Gender, Month, Payment Mode, Store Location, Product Category, and Day
-- 🏬 **Sales by Store** — Bar chart comparing revenue across all 5 store locations
-- 📅 **Sales According to the Days** — Line chart tracking sales trends across each day of the week
-- 🧁 **Sales by Product Type** — Bar chart comparing revenue across Hot, Iced, Blended, and Other product types
-- ⏰ **Hourly Sales Trend** — Bar chart showing sales performance hour by hour (8 AM to 10 PM), ideal for staffing decisions
-- 📈 **Monthly Sales** — Line chart tracking revenue trends across all 12 months
-- 🍩 **Sales by Category** — Donut chart showing revenue distribution across Bakery, Coffee, Cold Beverages, Others, and Tea
-- 📦 **Quantity Sold by Category** — Bar chart comparing units sold across each product category
-- 🏆 **Top 10 Products by Sale** — Horizontal bar chart ranking the best-selling products
-- 💲 **Average Product Price by Category** — Bar chart comparing average price points across categories
-- 💳 **Payment Mode Split** — Pie chart showing revenue share across Cash, Credit Card, Debit Card, and UPI
-- 👨‍💼 **Employee Performance** — Horizontal bar chart ranking staff by total sales generated
-- 👥 **Gender-wise Sales Split** — Pie chart comparing sales share between Male and Female customers
-- 🎨 **Custom Themed Design** — Clean, warm coffee-shop-inspired color palette (green, brown, and navy tones) for a professional, on-brand look
+- 📊 **KPI Summary Cards** — Total Revenue, Total Customers, Average Revenue, Average Discount Rate, Cancelled Orders, and Delivered Orders, all visible at the top of the dashboard
+- 🎚️ **Interactive Slicers** — Filter the entire dashboard instantly by Payment Mode, Sale Date (Year), Brand, Fuel Type, and Transmission
+- 📈 **Monthly Sales Trend** — Line chart tracking revenue across all 12 months to spot seasonality
+- 🚘 **Sales by Model** — Bar chart comparing revenue generated by each car model
+- 🏢 **Sales by Showroom** — Pie chart showing revenue distribution across 4 showroom locations
+- 🏆 **Top 5 Salespersons** — Ranked bar chart highlighting the best-performing sales staff
+- 🔄 **Sales Ratio Status** — Visual breakdown of Booked vs Cancelled vs Delivered orders
+- 👥 **Top 5 Customers** — Highest revenue-generating customers ranked by contribution
+- 🏙️ **Sales by City** — Regional performance comparison across 5 major cities
+- 💳 **Sales by Payment Mode** — Revenue split across Card, Cash, Loan, and UPI transactions
+- 🎨 **Custom Themed Design** — Dark navy dashboard theme with consistent color-coding for readability and a professional look
 
 ---
 
@@ -65,58 +60,46 @@ The goal of this project was to simulate a real-world retail/F&B business intell
 
 | Metric | Value |
 |---|---|
-| 💰 Total Revenue | ₹1,35,27,916.00 |
-| 🛒 Total Orders | 10,000 |
-| ☕ Total Quantity Sold | 30,275 |
-| 🧾 Average Bill | ₹1,352.79 |
-| 🏬 Total Stores | 5 |
-| 🌱 Total Products | 28 |
+| 💰 Total Revenue | 14.1B |
+| 👥 Total Customers | 6.1K |
+| 📈 Average Revenue | 1.4M |
+| 🏷️ Average Discount Rate | 8% |
+| ❌ Cancelled Orders | 3.4K |
+| ✅ Delivered Orders | 3.3K |
 
 ---
 
 ## 🧩 Dashboard Sections Explained
 
 ### 1. KPI Cards (Top Row)
-Six high-level metrics giving an instant health check of the business — total revenue, order volume, quantity sold, average bill value, store count, and product range.
+Six high-level metrics giving an instant health check of the business — revenue, customer base, average ticket size, discounting behavior, and order fulfillment status.
 
-### 2. Sales by Store
-A bar chart comparing total revenue generated by each of the 5 store locations — Downtown, East Side, Mall Road, North Point, and West End.
+### 2. Monthly Sales Trend
+A line chart tracing revenue month by month, useful for identifying seasonal dips and recovery patterns across the year.
 
-### 3. Sales According to the Days
-A line chart tracing revenue across each day of the week, useful for identifying peak sales days (Sunday shows the highest at ₹20,18,143).
+### 3. Sales by Model
+A bar chart comparing every car model's total revenue contribution, helping identify best-sellers vs. underperforming models.
 
-### 4. Sales by Product Type
-A bar chart comparing revenue contribution from Hot, Iced, Blended, and Other product types — with "Other" leading at over ₹80 lakh.
+### 4. Sales by Showroom
+A pie chart showing how revenue is distributed across the four showroom locations — City Cars, DriveHub, Elite Motors, and Prime Auto.
 
-### 5. Hourly Sales Trend
-A bar chart breaking down sales by hour of day (8 AM–10 PM), highlighting peak business hours — extremely useful for shift planning and staffing.
+### 5. Top 5 Salespersons
+A ranked bar chart of the five highest revenue-generating salespeople, useful for performance reviews and incentive planning.
 
-### 6. Monthly Sales
-A line chart tracking revenue trends month by month across the year, helping identify seasonal patterns.
+### 6. Sales Ratio Status
+A pie chart comparing Booked, Cancelled, and Delivered order volumes — a critical operational health indicator.
 
-### 7. Sales by Category
-A donut chart showing how revenue is evenly distributed (~20% each) across Bakery, Coffee, Cold Beverages, Others, and Tea.
+### 7. Top 5 Customers
+A horizontal bar chart listing the highest-spending customers by revenue contribution.
 
-### 8. Quantity Sold by Category
-A bar chart comparing the number of units sold per category, complementing the revenue-based category view.
+### 8. Sales by City
+A horizontal bar chart comparing total revenue across five major cities.
 
-### 9. Average Product Price by Category
-A bar chart comparing the average selling price across categories — Cold Beverages command the highest average price (₹279.21).
+### 9. Sales by Payment Mode
+A bar chart comparing revenue collected through each payment channel — Card, Cash, Loan, and UPI.
 
-### 10. Payment Mode
-A pie chart showing an almost even split of revenue across Cash, Credit Card, Debit Card, and UPI payment methods.
-
-### 11. Employee Performance
-A horizontal bar chart ranking all staff members by total sales generated — useful for performance reviews and incentive planning.
-
-### 12. Top 10 Products by Sale
-A horizontal bar chart listing the best-selling individual products, led by Water Bottle, Chips, and Cookies.
-
-### 13. Gender Split
-A pie chart showing an even 50/50 split in sales between male and female customers.
-
-### 14. Slicer Panel
-A left-hand and top-right control panel with six slicers (Gender, Month, Payment Mode, Store Location, Product Category, Day) that instantly filter every chart and KPI on the dashboard simultaneously.
+### 10. Slicer Panel
+A left-hand control panel with five slicers (Payment Mode, Sale Date, Brand, Fuel, Transmission) that instantly filter every chart and KPI on the dashboard simultaneously.
 
 ---
 
@@ -127,7 +110,7 @@ A left-hand and top-right control panel with six slicers (Gender, Month, Payment
   - Slicers for multi-dimensional interactive filtering
   - Formula-based KPI calculations (SUM, AVERAGE, COUNT-based aggregations)
   - Custom dashboard layout design & conditional formatting
-  - Data visualization: bar charts, line charts, pie charts, and donut charts
+  - Data visualization: bar charts, line charts, and pie charts
   - Data cleaning and structuring for pivot-based reporting
 
 ---
@@ -135,40 +118,36 @@ A left-hand and top-right control panel with six slicers (Gender, Month, Payment
 ## 📂 Repository Contents
 
 ```
-├── Coffee_Shop_Dashboard.xlsx    # Main Excel dashboard file (with raw data + dashboard sheet)
-├── Coffee_Shop_Dashboard.png     # Dashboard preview image
-└── README.md                     # Project documentation
+├── Car_Showroom_DashBoard.xlsx    # Main Excel dashboard file (with raw data + dashboard sheet)
+├── Car_Showroom_Dashboard.png     # Dashboard preview image
+└── README.md                      # Project documentation
 ```
 
 ---
 
 ## 🔍 Key Insights
 
-- ☕ **Sunday** is the highest sales day (₹20,18,143), noticeably ahead of the rest of the week — indicating strong weekend footfall
-- 🏬 **North Point** (₹27,16,990) and **Downtown** (₹27,41,384) are the top-performing stores, while **Mall Road** (₹26,64,073) trails slightly behind
-- 🥤 **"Other"** product type dominates revenue (₹80,71,771), far ahead of Iced, Hot, and Blended categories combined
-- ⏰ **Hour 16 (4 PM)** sees the highest hourly sales (₹9,77,606), suggesting a strong afternoon rush — useful for staffing decisions
-- 🍩 Revenue is **evenly distributed across all 5 product categories** (~20% each), showing a well-balanced product mix with no over-reliance on a single category
-- 💲 **Cold Beverages** have the highest average price point (₹279.21) while **Others** has the lowest (₹94.80)
-- 👨‍💼 **Aman** (₹17,61,779) and **Arjun** (₹16,53,610) are top performers on the employee leaderboard, with fairly close competition across the team
-- 🏆 **Water Bottle**, **Chips**, and **Cookies** are the top 3 best-selling individual products by volume
-- 👥 Customer base is **perfectly gender-balanced** (50% Male / 50% Female), indicating broad market appeal
-- 💳 Payment methods are **evenly split** across Cash, Credit Card, Debit Card, and UPI — showing no strong customer bias toward any single payment channel
+- 🚙 **Thar** is the top-selling model by revenue (1000.1M), while **Harrier** (868.0M) and **Punch** (879.7M) lag behind
+- 🏆 **Simran** is the top-performing salesperson (1814.7M), significantly ahead of the rest of the team
+- 🏢 Sales performance across all 4 showrooms is fairly balanced, with **DriveHub** (3619.7M) marginally leading — no single location dominates
+- ⚠️ **Cancelled orders (3.4K) are nearly on par with delivered orders (3.3K)** — this is the single most critical insight from the dashboard and flags a potential issue in the order fulfillment pipeline worth investigating further
+- 👥 The gap between the top 5 customers (9.4M to 10.5M) is small, indicating **low customer concentration risk** and a healthy, diversified customer base
+- 🏙️ Revenue distribution across cities (Delhi, Gurugram, Jaipur, Lucknow, Noida) is fairly even, ranging between 2700M–2950M
+- 💳 Payment mode usage is nearly evenly split across Card, Cash, Loan, and UPI — showing no strong customer bias toward a single payment channel
 
 ---
 
 ## 🚀 How to Use
 
-1. Download `Coffee_Shop_Dashboard.xlsx` from this repository
+1. Download `Car_Showroom_DashBoard.xlsx` from this repository
 2. Open the file in **Microsoft Excel (2016 or later recommended)** for full slicer support
 3. Navigate to the **Dashboard** sheet
-4. Use the slicers to filter by:
-   - Gender (Male / Female)
-   - Month (Jan–Dec)
-   - Payment Mode (Cash / Credit Card / Debit Card / UPI)
-   - Store Location (Downtown / East Side / Mall Road / North Point / West End)
-   - Product Category (Bakery / Coffee / Cold Beverages / Others / Tea)
-   - Day (Sunday–Saturday)
+4. Use the slicers on the left panel to filter by:
+   - Payment Mode (Card / Cash / Loan / UPI)
+   - Sale Date / Year (2024 / 2025 / 2026)
+   - Brand (Honda / Hyundai / Mahindra / Maruti / Tata)
+   - Fuel Type (CNG / Diesel / EV / Petrol)
+   - Transmission (Automatic / Manual)
 5. All KPI cards and charts will update dynamically in real time based on your selections
 6. Reset any slicer by clicking the "clear filter" icon on the top-right of the slicer box
 
@@ -179,18 +158,17 @@ A left-hand and top-right control panel with six slicers (Gender, Month, Payment
 - Data visualization & dashboard design
 - Pivot Table and Pivot Chart creation
 - Interactive filtering using Slicers
-- Retail/F&B business analysis and insight generation
+- Business/data analysis and insight generation
 - KPI identification and reporting
-- Time-based sales analysis (hourly, daily, monthly trends)
 - Dashboard UI/UX layout planning in Excel
 
 ---
 
 ## 📈 Future Improvements
 
-- Add a store-wise drill-down view for deeper location-level analysis
-- Correlate hourly sales trends with staffing levels to optimize labor cost
-- Add a customer loyalty/repeat purchase tracking metric
+- Add a year-over-year (YoY) comparison view for monthly sales trends
+- Correlate discount rate with cancellation rate to identify root causes of order cancellations
+- Add a drill-down feature for individual salesperson or city-level performance
 - Automate data refresh using Power Query for live/external data sources
 - Migrate to Power BI for enhanced interactivity and cloud sharing capability
 
@@ -205,6 +183,5 @@ A left-hand and top-right control panel with six slicers (Gender, Month, Payment
 
 Feel free to connect or reach out for feedback, collaboration, or suggestions!
 
----
 
 ⭐ **If you found this dashboard useful, consider giving this repository a star — it really helps!**
