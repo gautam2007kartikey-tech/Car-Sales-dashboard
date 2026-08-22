@@ -182,6 +182,3 @@ A left-hand control panel with five slicers (Payment Mode, Sale Date, Brand, Fue
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gautam2007kartikey-tech)
 
 Feel free to connect or reach out for feedback, collaboration, or suggestions!
-
-
-⭐ **If you found this dashboard useful, consider giving this repository a star — it really helps!**
