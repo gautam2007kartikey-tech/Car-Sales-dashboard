@@ -6,7 +6,7 @@
 
 An interactive, fully dynamic Excel dashboard built to track, visualize, and analyze end-to-end sales performance for a multi-brand car showroom network. This project turns raw transactional sales data into a single, decision-ready view — covering revenue trends, customer behavior, sales team performance, order fulfillment health, and regional/channel-wise breakdowns.
 
-![Dashboard Preview](Car Showroom Dashboard.png)
+![Dashboard Preview](Car_Showroom_Dashboard.png)
 
 ---
 
